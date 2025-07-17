@@ -1,6 +1,8 @@
 # 🏠 Property Listing App
 
-A full-stack web application where users can list their properties, browse available listings, book stays per night, post reviews, and navigate using an integrated map. It includes secure user authentication and robust error handling for a seamless experience.
+A full-stack web application where users can **list**, **book**, **review**, and **navigate** through properties with user authentication, secure error handling, and booking calculations based on per-night stay.
+
+---
 
 ## 🔧 Tech Stack
 
@@ -10,19 +12,23 @@ A full-stack web application where users can list their properties, browse avail
 - **Notifications:** connect-flash
 - **Database:** MongoDB (Mongoose)
 - **Frontend:** HTML, CSS, EJS templates
-- **Others:** Map Integration (e.g., Mapbox/Leaflet), Middleware for validation and error handling
+- **Other Tools:** Map Integration (Mapbox or Leaflet), Express Middleware, Method-Override
 
 ---
 
 ## ✨ Features
 
-- 🔐 **User Authentication:** Secure login/register system using Passport.js
-- 🏡 **Property Listings:** Users can create, view, and delete property listings
-- 📅 **Booking System:** Book properties per night and view total payment
-- 💬 **Comments & Reviews:** Leave feedback on properties
-- 🗺️ **Map Integration:** View properties on a map for easy navigation
-- ⚠️ **Error Handling:** Clean and secure error pages
-- 🔔 **Flash Notifications:** User-friendly success and error messages
+- 🔐 **User Authentication** – Register/login/logout with Passport.js
+- 🏡 **Property Listings (CRUD)** –  
+  - **Create:** Add a new property  
+  - **Read:** View all or single property details  
+  - **Update:** Edit existing listings  
+  - **Delete:** Remove property listings  
+- 📅 **Booking System:** Book properties per night and auto-calculate total payment
+- 💬 **Comments & Reviews:** Post, read, and manage reviews for each listing
+- 🗺️ **Map Integration:** See property location on an interactive map
+- ⚠️ **Error Handling:** Clean 404 and server error messages
+- 🔔 **Flash Notifications:** Friendly success/error messages on actions
 
 ---
 
