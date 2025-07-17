@@ -1,6 +1,6 @@
 # 🏠 Property Listing App
 
-A full-stack web application where users can **list**, **book**, **review**, and **navigate** through properties with user authentication, secure error handling, and booking calculations based on per-night stay.
+A full-stack web application where users can **list**, **book**, **review**, and **navigate** through properties with full **CRUD operations** implemented. Users can create, read, update, and delete property listings and reviews. The app includes user authentication, secure error handling, dynamic booking based on per-night cost, and map integration for navigation.
 
 ---
 
@@ -25,10 +25,11 @@ A full-stack web application where users can **list**, **book**, **review**, and
   - **Update:** Edit existing listings  
   - **Delete:** Remove property listings  
 - 📅 **Booking System:** Book properties per night and auto-calculate total payment
-- 💬 **Comments & Reviews:** Post, read, and manage reviews for each listing
+- 💬 **Comments & Reviews:** Post, read, update, and delete reviews
 - 🗺️ **Map Integration:** See property location on an interactive map
 - ⚠️ **Error Handling:** Clean 404 and server error messages
 - 🔔 **Flash Notifications:** Friendly success/error messages on actions
 
 ---
+
 
