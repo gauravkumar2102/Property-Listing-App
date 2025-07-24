@@ -10,6 +10,7 @@ const engine = require("ejs-mate");
 const port = 3000;
 const path = require("path");
 const methodOverride = require("method-override");
+const list = require("./models/listing.js");
 const ExpressError = require("./utils/ExpressError");
 const listings=require("./routes/listing.js");
 const reviews=require("./routes/review.js");
@@ -95,7 +96,8 @@ app.use("/listing/:id/reviews",reviews);
 app.use("/user",user);
 // Home page
 app.get("/", async (req, res) => {
-  res.send("Successful testing");
+  let listData = await list.find();
+  res.render("listing/index", { listData });
 });
 
 // 
